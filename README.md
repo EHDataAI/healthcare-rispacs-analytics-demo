@@ -2,6 +2,18 @@
 
 **Healthcare Analytics | Medical Imaging | RIS/PACS | Workflow Analytics | Data Quality**
 
+[![Launch Live App](https://img.shields.io/badge/Launch-Live%20App-FF4B4B?logo=streamlit&logoColor=white)](https://ehdataai-healthcare-rispacs.streamlit.app/)
+[![View Releases](https://img.shields.io/badge/View-Releases-2ea44f?logo=github&logoColor=white)](https://github.com/EHDataAI/healthcare-rispacs-analytics-demo/releases)
+
+## Live application
+
+The certified public dashboard is deployed on Streamlit Community Cloud:
+
+**[Launch the Healthcare RIS/PACS Analytics Demo](https://ehdataai-healthcare-rispacs.streamlit.app/)**
+
+The live application uses synthetic demonstration data only. It does not connect to a hospital system, contain patient information, or provide clinical decision support.
+
+
 A reproducible public portfolio project showing how synthetic radiology workflow data can be transformed into management-oriented operational evidence.
 
 The project follows imaging studies across acquisition, PACS availability and reporting. It lets users explore workload, reporting pressure, workflow latency, data quality and synthetic safety-check metadata from one analytical interface.
