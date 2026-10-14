@@ -17,6 +17,7 @@ LICENSE.txt
 PREPUBLISH_CHECK.ps1
 pyproject.toml
 README.md
+requirements.txt
 RUN_DEMO.ps1
 scripts/generate_demo_data.py
 scripts/public_release_preflight.py
