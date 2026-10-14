@@ -1,0 +1,52 @@
+contract_name: demo_radiology_study
+version: 1.1.0
+required_columns:
+- accession_alias
+- exam_datetime
+- modality
+- room
+- patient_class
+- acquisition_start
+- acquisition_end
+- pacs_available_at
+- report_signed_at
+- report_status
+- ges_flag
+- safety_check_complete
+- procedure_group
+rules:
+  accession_alias:
+    type: string
+  exam_datetime:
+    type: datetime
+  modality:
+    type: string
+    allowed:
+    - CT
+    - MR
+    - US
+    - CR
+    - DX
+  room:
+    type: string
+  patient_class:
+    type: string
+  acquisition_start:
+    type: datetime
+  acquisition_end:
+    type: datetime
+  pacs_available_at:
+    type: datetime
+  report_signed_at:
+    type: datetime
+  report_status:
+    type: string
+    allowed:
+    - PENDING
+    - SIGNED
+  ges_flag:
+    type: boolean
+  safety_check_complete:
+    type: boolean
+  procedure_group:
+    type: string

@@ -1,0 +1,23 @@
+seed: 20260928
+rows: 50000
+start_date: "2025-01-01"
+end_date: "2025-12-31"
+reporting_sla:
+  warning_hours: 24
+  critical_hours: 48
+quality:
+  max_missing_rate_warn: 0.03
+  max_missing_rate_fail: 0.08
+  max_duplicate_rate_warn: 0.01
+modalities:
+  - CT
+  - MR
+  - US
+  - CR
+  - DX
+rooms:
+  CT: [CT_01, CT_02]
+  MR: [MR_01, MR_02]
+  US: [US_01, US_02, US_03]
+  CR: [CR_01]
+  DX: [DX_01, DX_02]
